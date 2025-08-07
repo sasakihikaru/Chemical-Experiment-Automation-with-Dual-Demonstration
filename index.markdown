@@ -189,6 +189,9 @@ GitHub Repository – Robot Automation System
 
 ###  Hardware Design
 We provide 3D CAD files and mechanical design specifications for all jigs.
-Hardware Design Files (STL, STEP, PDF)
+
+[<a href="https://drive.google.com/drive/folders/1MhjS7Oeb_IeSksfQzN8WtS2Ldvuo__-u?usp=sharing" target="_blank" rel="noopener">Hardware Design Files</a>]
+
 All parts were designed using Fusion 360 and printed with a FLASHFORGE Creator3 Pro using PLA filament.
+
 
