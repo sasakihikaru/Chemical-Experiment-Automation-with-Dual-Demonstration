@@ -3,6 +3,9 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: single
+classes: wide
+sidebar: false
+
 ---
 
 <div style="text-align: center;">
@@ -98,6 +101,8 @@ Experimental environment layout with three workstations (Fig. 18).
       <img src="{{ '/assets/figure/robot_exp_env2.png' | relative_url }}" alt="Image 1" width="300">
       <div style="font-size: 0.9em; margin-top: 5px;">(a)</div>
     </div>
+  </div>
+  <div style="display: flex; gap: 20px; justify-content: center;">
     <div style="text-align: center;">
       <img src="{{ '/assets/figure/pipetting_env.png' | relative_url }}" alt="Image 2" width="300">
       <div style="font-size: 0.9em; margin-top: 5px;">(b)</div>
@@ -178,6 +183,61 @@ At Workspace 3, the robot:
 - Accurate pipetting volumes, with low deviation from targets
 
 This system shows that complex chemical procedures can be automated without manual programming, making robotic lab automation more accessible to chemists without robotics expertise.
+
+
+
+## Movies
+
+### Pipetting task (4x speed)
+
+#### Human demonstration
+<iframe width="560" height="315"
+  src="https://www.youtube-nocookie.com/embed/hZUM70MXd0o"
+  style="position:absolute; top:0; left:0; width:100%; height:100%;"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+</iframe>
+
+#### Robot execution
+<iframe width="560" height="315"
+  src="https://www.youtube-nocookie.com/embed/E4eBMMbV3Io"
+  style="position:absolute; top:0; left:0; width:100%; height:100%;"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+</iframe>
+
+### Bottle manipulation task (4x speed)
+
+### Human demonstration
+<iframe width="560" height="315"
+  src="https://www.youtube-nocookie.com/embed/VQaUWhdreBI"
+  style="position:absolute; top:0; left:0; width:100%; height:100%;"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+</iframe>
+
+### Robot execution
+<iframe width="560" height="315"
+  src="https://www.youtube-nocookie.com/embed/EMtcLo8c7Xg"
+  style="position:absolute; top:0; left:0; width:100%; height:100%;"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+</iframe>
+
+
+#### Experiment execution by robot
+<iframe width="560" height="315"
+  src="https://www.youtube-nocookie.com/embed/-qJKfBIBius"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+</iframe>
+
+
 
 ---
 
