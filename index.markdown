@@ -20,7 +20,7 @@ sidebar: false
 
 
 
-## abstact
+# Abstact
 <div class="notice--primary">
 While robotic automation has demonstrated remarkable performance, such as executing hundreds of experiments continuously over several days, designing synchronized motions between the robot and experimental jigs remains challenging, especially for flexible experimental automation.
 This challenge stems from the fact that even minor changes in experimental conditions often require extensive reprogramming of both robot motions and jig control commands.
@@ -35,7 +35,7 @@ This comprehensive concept not only simplifies the robot programming process for
 
 ---
 
-## Overview
+# Overview
 This paper proposes a dual demonstration-based robotic system for automating chemical experiments. Instead of manually programming robot motions and jig operations, chemists demonstrate the actions using an intuitive interface and jig controller. The robot then reproduces the task precisely, streamlining automation for complex lab workflows.
 Concept of dual demonstration: (a) chemist demonstrates using the interface and jigs, (b) robot executes the task.
 
@@ -56,7 +56,7 @@ Concept of dual demonstration: (a) chemist demonstrates using the interface and 
 
 ---
 
-## System Architecture
+# System Architecture
 
 The developed system integrates four main components:
 - A motion-demonstration interface that mimics the robot's gripper
@@ -83,9 +83,9 @@ System overview is shown in Fig. 4.
 
 ---
 
-## Experiments 
+# Experiments 
 
-### Settings
+## Settings
 To validate the system, a simulated polymer synthesis workflow was designed. It consisted of three workspaces:
 - Polymer sampling
 - Bottle manipulation for dilution
@@ -116,11 +116,11 @@ Experimental environment layout with three workstations (Fig. 18).
 </figure>
 
 
-### Results
+## Results
 The robot performed all actions based on a single human demonstration, including bottle manipulation, polymer sampling, and dilution.
 The results confirm the system's precision, synchronization, and reliability across complex, multi-step tasks.
 
-#### Task 1: Polymer Sampling
+### Task 1: Polymer Sampling
 At Workspace 1, the robot:
 - Retrieves a bottle from the case
 - Opens the cap
@@ -139,7 +139,7 @@ Robot-executed actions for polymer sampling.
 </figure>
 
 
-#### Task 2: Bottle Manipulation for Dilution
+### Task 2: Bottle Manipulation for Dilution
 At Workspace 2, the robot:
 - Places the bottles for dilution
 - Opens the lids
@@ -160,7 +160,7 @@ Bottle manipulation task for dilution setup.
 </figure>
 
 
-#### Task 3: Pipetting for Dilution
+### Task 3: Pipetting for Dilution
 At Workspace 3, the robot:
 - Picks up small and large pipettes
 - Aspirates and dispenses polymer and solvent
@@ -177,7 +177,16 @@ At Workspace 3, the robot:
   </div>
 </figure>
 	
-#### Summary of Results
+### Summary of Results
+<iframe width="560" height="315"
+  src="https://www.youtube-nocookie.com/embed/61YT4UE-OYM"
+  style="position:absolute; top:0; left:0; width:100%; height:100%;"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+</iframe>
+Full movie of the robot experiment
+
 - 100% task success rate over all trials
 - High reproducibility of human-demonstrated motions
 - Accurate pipetting volumes, with low deviation from targets
@@ -186,11 +195,11 @@ This system shows that complex chemical procedures can be automated without manu
 
 
 
-## Movies
+# Additional Movies
 
-### Pipetting task (4x speed)
+## Pipetting task
 
-#### Human demonstration
+### Human demonstration (4x speed)
 <iframe width="560" height="315"
   src="https://www.youtube-nocookie.com/embed/hZUM70MXd0o"
   style="position:absolute; top:0; left:0; width:100%; height:100%;"
@@ -199,7 +208,7 @@ This system shows that complex chemical procedures can be automated without manu
   allowfullscreen>
 </iframe>
 
-#### Robot execution
+### Robot execution (4x speed)
 <iframe width="560" height="315"
   src="https://www.youtube-nocookie.com/embed/E4eBMMbV3Io"
   style="position:absolute; top:0; left:0; width:100%; height:100%;"
@@ -208,9 +217,9 @@ This system shows that complex chemical procedures can be automated without manu
   allowfullscreen>
 </iframe>
 
-### Bottle manipulation task (4x speed)
+## Bottle manipulation task
 
-### Human demonstration
+### Human demonstration (4x speed)
 <iframe width="560" height="315"
   src="https://www.youtube-nocookie.com/embed/VQaUWhdreBI"
   style="position:absolute; top:0; left:0; width:100%; height:100%;"
@@ -219,7 +228,7 @@ This system shows that complex chemical procedures can be automated without manu
   allowfullscreen>
 </iframe>
 
-### Robot execution
+### Robot execution (4x speed)
 <iframe width="560" height="315"
   src="https://www.youtube-nocookie.com/embed/EMtcLo8c7Xg"
   style="position:absolute; top:0; left:0; width:100%; height:100%;"
@@ -229,7 +238,7 @@ This system shows that complex chemical procedures can be automated without manu
 </iframe>
 
 
-#### Experiment execution by robot
+## Experiment execution by robot (4x speed)
 <iframe width="560" height="315"
   src="https://www.youtube-nocookie.com/embed/-qJKfBIBius"
   frameborder="0"
